@@ -1,4 +1,4 @@
-# Data Cataog For Gold Layer
+# Data Catalog For Gold Layer
 
 ## Overview
 The Gold layer is the business-level representation, structure to support analytica and reporting use cases. It consists of **dimension table**
