@@ -1,8 +1,7 @@
 # Data Catalog For Gold Layer
 
 ## Overview
-The Gold layer is the business-level representation, structure to support analytica and reporting use cases. It consists of **dimension table**
-and **fact tables** for specific business metrics.
+The Gold layer is the business-level representation, structure to support analytical and reporting use cases. It consists of **dimension table** and **fact tables** for specific business metrics.
 
 --
 
@@ -51,12 +50,12 @@ and **fact tables** for specific business metrics.
 
  | Column Name   | Data Type     | Description 
  |---------------|---------------|------------------------------------------------------------------------------------|
- |order_number   | NVARCHAR(50)  | A unique alphanumeric identifier for eahc sales order (e.g., 'S054496').           |
+ |order_number   | NVARCHAR(50)  | A unique alphanumeric identifier for each sales order (e.g., 'S054496').           |
  |product_key    | INT           | Surrogate Key linking the order to the product dimension table.                    |
  |customer_key   | INT           | Surrogate Key linking the order to the customer dimension table.                   |
  |order_date     | DATE          | The date when the order was placed.                                                |
  |shipping_date  | DATE          | The date when the order was shipped to the customer.                               |
  |due_date       | DATE          | The date that the order payment was due.                                           |
  |sales_amount   | INT           | The total monetary vaue of the sale of teh line item, in whole currency units (e.g., 25).|
- |quantity       | INT           | The number of units of teh product ordered  for the ine item (e.g., 1).             |
+ |quantity       | INT           | The number of units of the product ordered  for the ine item (e.g., 1).             |
  |price          | INT           | The price per unit of the product for the line item, in whole currency units (e.g., 25). |
